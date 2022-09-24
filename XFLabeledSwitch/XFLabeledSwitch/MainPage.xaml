@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XFLabeledSwitch.Controls"
+             x:Class="XFLabeledSwitch.MainPage"
+            Title="Labeled Switch"
+             Visual="Material"
+             Padding="16">
+
+    <StackLayout>
+        <controls:LabeledSwitch Title="My Title"
+                                Detail="My Detail" />
+
+    </StackLayout>
+
+</ContentPage>
